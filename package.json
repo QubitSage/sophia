@@ -1,0 +1,23 @@
+{
+  "name": "bot-claude",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chatbot", "gpt-4", "juridico", "whatsapp"],
+  "author": "",
+  "license": "ISC",
+  "description": "Chatbot jurídico conversacional baseado em GPT-4 para WhatsApp",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "graphql-request": "^7.1.2",
+    "openai": "^4.93.0",
+    "pdfkit": "^0.16.0",
+    "venom-bot": "^5.3.0",
+    "nodemon": "^3.0.3"
+  }
+}
